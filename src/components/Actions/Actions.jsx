@@ -3,7 +3,7 @@ import Button from "../Button/Button";
 
 const Actions = ({ handleButtonClick }) => {
   return (
-    <div className="buttons">
+    <div className="uttons">
       <Button value="7" onClick={handleButtonClick} />
       <Button value="8" onClick={handleButtonClick} />
       <Button value="9" onClick={handleButtonClick} />
