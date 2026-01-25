@@ -1,9 +1,9 @@
-import Button from "../Button/Button";
+import Button from "../Button/button";
 // комент с Сашей
 
 const Actions = ({ handleButtonClick }) => {
   return (
-    <div className="uttons">
+    <div className="buttons">
       <Button value="7" onClick={handleButtonClick} />
       <Button value="8" onClick={handleButtonClick} />
       <Button value="9" onClick={handleButtonClick} />
